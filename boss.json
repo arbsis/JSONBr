@@ -1,0 +1,9 @@
+{
+	"name": "JSONBr",
+	"description": "",
+	"version": "1.0.1",
+	"homepage": "www.isaquepinheiro.com.br",
+	"mainsrc": "Source/",
+	"projects": [],
+	"dependencies": {}
+}

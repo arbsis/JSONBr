@@ -2,7 +2,6 @@
 *.dcu
 *.bpl
 *.map
-*.json
 *.tvsconfig
 *.txaPackage
 *.local
