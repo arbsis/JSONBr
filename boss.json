@@ -4,8 +4,6 @@
 	"version": "1.0.1",
 	"homepage": "www.isaquepinheiro.com.br",
 	"mainsrc": "Source/",
-	"projects": [
-		"JSONBr.dproj"
-	],
+	"projects": [],
 	"dependencies": {}
 }
