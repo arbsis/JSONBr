@@ -1,0 +1,42 @@
+﻿package JSONBr;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl;
+
+contains
+  jsonbr.builders in 'Source\Core\jsonbr.builders.pas',
+  jsonbr.types in 'Source\Core\jsonbr.types.pas',
+  jsonbr.utils in 'Source\Core\jsonbr.utils.pas',
+  jsonbr.reader in 'Source\Reader\jsonbr.reader.pas',
+  jsonbr.writer in 'Source\Writer\jsonbr.writer.pas',
+  jsonbr in 'Source\jsonbr.pas';
+
+end.

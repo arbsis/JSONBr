@@ -29,14 +29,14 @@ unit jsonbr.reader;
 interface
 
 uses
-  Rtti,
-  TypInfo,
-  StrUtils,
-  SysUtils,
-  Classes,
-  Variants,
-  Generics.Collections,
-  Generics.Defaults,
+  System.Rtti,
+  System.TypInfo,
+  System.StrUtils,
+  System.SysUtils,
+  System.Classes,
+  System.Variants,
+  System.Generics.Collections,
+  System.Generics.Defaults,
   jsonbr.types,
   jsonbr.builders;
 

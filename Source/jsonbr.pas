@@ -26,12 +26,12 @@ unit jsonbr;
 interface
 
 uses
-  Rtti,
-  SysUtils,
-  StrUtils,
-  Classes,
-  Variants,
-  Generics.Collections,
+  System.Rtti,
+  System.SysUtils,
+  System.StrUtils,
+  System.Classes,
+  System.Variants,
+  System.Generics.Collections,
   jsonbr.utils,
   jsonbr.types,
   jsonbr.writer,
