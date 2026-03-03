@@ -29,14 +29,14 @@ unit jsonbr.builders;
 interface
 
 uses
-  System.Rtti,
-  System.Types,
-  System.TypInfo,
-  System.Classes,
-  System.SysUtils,
-  System.StrUtils,
-  System.Variants,
-  System.Generics.Collections,
+  Rtti,
+  Types,
+  TypInfo,
+  Classes,
+  SysUtils,
+  StrUtils,
+  Variants,
+  Generics.Collections,
   jsonbr.utils,
   jsonbr.types;
 

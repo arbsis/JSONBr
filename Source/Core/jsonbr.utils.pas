@@ -3,9 +3,9 @@ unit jsonbr.utils;
 interface
 
 uses
-  System.StrUtils,
-  System.DateUtils,
-  System.SysUtils;
+  StrUtils,
+  DateUtils,
+  SysUtils;
 
 function DateTimeToIso8601(const AValue: TDateTime;
   const AUseISO8601DateFormat: Boolean): String;

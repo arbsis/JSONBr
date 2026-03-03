@@ -29,10 +29,10 @@ unit jsonbr.writer;
 interface
 
 uses
-  System.Rtti,
-  System.Variants,
-  System.SysUtils,
-  System.Classes,
+  Rtti,
+  Variants,
+  SysUtils,
+  Classes,
   jsonbr.utils,
   jsonbr.builders;
 

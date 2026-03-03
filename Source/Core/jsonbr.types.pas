@@ -3,8 +3,8 @@ unit jsonbr.types;
 interface
 
 uses
-  System.Rtti,
-  System.SysUtils;
+  Rtti,
+  SysUtils;
 
 type
   EJsonBrException = class(Exception);
